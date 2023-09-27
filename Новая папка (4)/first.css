@@ -1,0 +1,71 @@
+
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-image: url(1662192842_14-kartinkin-net-p-severnii-ledovitii-okean-iz-kosmosa-instag-16.jpg);
+    background-size: 100%;
+    background-attachment: fixed;
+}
+header {
+    color: rgb(246, 248, 248);
+    background-color:#000000;
+    text-align: center;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    height: 9%;
+    font-size: calc(1rem -3* (100vw - 320px) / 880);
+    position:fixed;
+    left:0;
+    right:0;
+    top: 0;
+    border-bottom: 1px solid white;
+}
+h1 {
+    font-family: 'Source Code Pro';
+    
+    margin-left: 40%;
+    margin-right: 40%;
+    margin-top: 17px;
+
+    transition: transform .2s;
+}
+h1:hover {
+    transform: scale(1.2);
+}
+
+.second {
+    font-family: 'Source Code Pro';
+    background-color: rgba(255, 255, 255, 0.753);
+    text-align: center;
+    font-size: 120%;
+    border-radius: 30px;
+    margin-right: 20%;
+    margin-left: 20%;
+    margin-top:11%;
+    border: 3px solid rgb(244, 246, 247);
+    height: 550px;
+    width: 50%;
+    margin-left: 25%;
+    background-repeat: no-repeat;
+}
+ul {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 130%;
+}
+
+#sec {
+    color: white;
+}
+.hot {
+    color:black;
+    background-color: white;
+}
+blockquote {
+    color: rgb(22, 22, 182);
+}
